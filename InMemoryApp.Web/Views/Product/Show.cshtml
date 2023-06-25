@@ -8,3 +8,9 @@
 @*<h1>@ViewBag.timeForCache</h1>*@
 
 <h1>@ViewBag.callback</h1>
+
+@{
+    Product product = ViewBag.product as Product;
+}
+
+<h3>@product.Id => @product.Name => @product.Price</h3>
