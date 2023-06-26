@@ -4,11 +4,11 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace InMemoryApp.Web.Controllers
 {
-    public class ProductController : Controller
+    public class ProductsController : Controller
     {
         private IMemoryCache _memoryCache;
 
-        public ProductController(IMemoryCache memoryCache)
+        public ProductsController(IMemoryCache memoryCache)
         {
             _memoryCache = memoryCache;
         }
