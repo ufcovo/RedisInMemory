@@ -50,5 +50,18 @@ namespace IDistributedCacheRedisApp.Web.Controllers
             _distributedCache.Remove("name");
             return View();
         }
+        public IActionResult ImageUrl()
+        {
+            byte[] imageByte = _distributedCache.Get("image");
+            return File(imageByte, "image/png");
+        }
+        public IActionResult ImageCache()
+        {
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/a.png");
+            byte[] imagesByte = System.IO.File.ReadAllBytes(path);
+            _distributedCache.Set("image", imagesByte);
+
+            return View();
+        }
     }
 }
