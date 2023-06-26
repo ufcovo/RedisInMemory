@@ -5,3 +5,10 @@
 }
 
 <h2>@ViewBag.name</h2>
+@{
+    Product p = ViewBag.Product as Product;
+    Product p2 = ViewBag.Product2 as Product;
+}
+
+<h2>@p.Id => @p.Name => @p.Price</h2>
+<h2>@p2.Id => @p2.Name => @p2.Price</h2>

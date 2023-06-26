@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lBvCzIcml10ieDLNnLukGys4U5YkGSM3jMNxr9yGFh//CNy6oP4/D4DLFac4GyNCkoKirasg5aoUNHPvqpNoZw==",
+  "dgSpecHash": "oI6pe+5A7K4jZ5d2nwSFqKMdHn8US40TDfit0Et2HA1K82alRDuTbRLpgskawne+ApNOcOVfE2hoRLmfnaC4bA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mertt\\source\\repos\\RedisInMemory\\IDistributedCacheRedisApp.Web\\IDistributedCacheRedisApp.Web.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\Mertt\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Mertt\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Mertt\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Mertt\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Mertt\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.0\\pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
     "C:\\Users\\Mertt\\.nuget\\packages\\stackexchange.redis\\2.2.4\\stackexchange.redis.2.2.4.nupkg.sha512",
     "C:\\Users\\Mertt\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
