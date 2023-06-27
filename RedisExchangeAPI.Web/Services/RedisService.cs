@@ -12,12 +12,16 @@ namespace RedisExchangeAPI.Web.Services
         {
             _redisHost = configuration["Redis:Host"];
             _redisPort = configuration["Redis:Port"];
-        }
 
-        public void Connect()
-        {
             var configString = $"{_redisHost}:{_redisPort}";
-            _redis = ConnectionMultiplexer.Connect(configString);
+            var config = new ConfigurationOptions
+            {
+                EndPoints = { configString },
+                AbortOnConnectFail = false,
+                ConnectTimeout = 10000, // 10 saniye olarak ayarlayın
+                SyncTimeout = 10000 // 10 saniye olarak ayarlayın
+            };
+            _redis = ConnectionMultiplexer.Connect(config);
         }
 
         public IDatabase GetDb(int db)
