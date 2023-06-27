@@ -18,8 +18,8 @@ namespace RedisExchangeAPI.Web.Services
             {
                 EndPoints = { configString },
                 AbortOnConnectFail = false,
-                ConnectTimeout = 10000, // 10 saniye olarak ayarlayın
-                SyncTimeout = 10000 // 10 saniye olarak ayarlayın
+                ConnectTimeout = 10000,
+                SyncTimeout = 10000 
             };
             _redis = ConnectionMultiplexer.Connect(config);
         }
